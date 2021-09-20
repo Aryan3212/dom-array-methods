@@ -1,0 +1,96 @@
+@import url("https://fonts.googleapis.com/css2?family=Lato:wght@300;400;600;700;800&display=swap");
+* {
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+body {
+  background-color: #242333;
+  color: #f9fafb;
+  font-family: "Lato", sans-serif;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  min-height: 100vh;
+  margin: 0;
+}
+
+.container {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  padding: 20px;
+  margin: 0 auto;
+  max-width: 100%;
+  width: 800px;
+}
+
+.container aside {
+  padding: 10px 20px;
+  width: 250px;
+  border-right: 1px solid #111;
+}
+
+.container button {
+  display: block;
+  background-color: #fff;
+  border: solid 1px #111;
+  border-radius: 5px;
+  width: 100%;
+  padding: 10px;
+  margin-bottom: 1rem;
+  font-weight: bold;
+  font-size: 14px;
+}
+
+.container main {
+  -webkit-box-flex: 1;
+      -ms-flex: 1;
+          flex: 1;
+  margin: 10px 20px;
+}
+
+.container main h2, .container main h3 {
+  border-bottom: 1px solid #fff;
+  padding-bottom: 10px;
+  width: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  font-weight: 300;
+  margin: 0 0 20px;
+}
+
+.container main h3 {
+  background-color: #fff;
+  margin: 20px 0 0;
+  padding: 10px;
+}
+
+.container main .person {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  font-size: 14px;
+  margin-bottom: 10px;
+}
+
+.container main .person p {
+  font-size: 24px;
+}
