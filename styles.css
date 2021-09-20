@@ -45,6 +45,7 @@ body {
   display: block;
   background-color: #fff;
   border: solid 1px #111;
+  cursor: pointer;
   border-radius: 5px;
   width: 100%;
   padding: 10px;
@@ -76,8 +77,11 @@ body {
 
 .container main h3 {
   background-color: #fff;
-  margin: 20px 0 0;
+  font-weight: bold;
+  color: #242333;
+  margin: auto 0;
   padding: 10px;
+  text-align: start;
 }
 
 .container main .person {
@@ -87,10 +91,14 @@ body {
   -webkit-box-pack: justify;
       -ms-flex-pack: justify;
           justify-content: space-between;
-  font-size: 14px;
+  -webkit-box-align: end;
+      -ms-flex-align: end;
+          align-items: flex-end;
+  font-size: 24px;
   margin-bottom: 10px;
 }
 
+.container main .person strong,
 .container main .person p {
   font-size: 24px;
 }
